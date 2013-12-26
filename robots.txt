@@ -1,0 +1,173 @@
+#
+# robots.txt for Sanguosha Data Station
+#
+
+User-agent: Baiduspider
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+
+User-agent: MSNBot
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+
+User-agent: Baiduspider-image
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+
+User-agent: YoudaoBot
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+
+User-agent: Sogou web spider
+Disallow: /baidu
+Disallow: /s?
+Disallow: /shifen/
+Disallow: /homepage/
+Disallow: /cpro
+
+User-agent: Sogou inst spider
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+
+User-agent: Sogou spider2
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+User-agent: Sogou blog
+Disallow: /baidu
+Disallow: /s?
+Disallow: /shifen/
+Disallow: /homepage/
+Disallow: /cpro
+
+User-agent: Sogou News Spider
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+
+User-agent: Sogou Orion spider
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+
+User-agent: JikeSpider
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+
+User-agent: Sosospider
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+
+User-agent: PangusoSpider
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+
+User-agent: yisouspider
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+
+User-agent: EasouSpider
+Disallow: /admin/
+Disallow: /config/
+Disallow: /images/
+Disallow: /source/
+Disallow: /template/
+Disallow: /ajax.php
+Disallow: /member.php
+Disallow: /callback.php
+Disallow: /test.php
+
+User-agent: *
+Disallow: /
