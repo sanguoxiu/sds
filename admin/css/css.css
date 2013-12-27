@@ -1,0 +1,40 @@
+table,tr,td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	padding: 20px 0px 0px 40px;
+	background: #e5e5e5;
+}
+
+table,html {
+	font-size: 12px;
+}
+
+textarea {
+	resize: none;
+}
+
+table {
+	width: 80%;
+	margin-bottom: .48em;
+}
+
+table td {
+	padding: 5px 5px;
+	text-align: center;
+}
+
+table tr {
+	background: #d5d5d5;
+}
+
+table tbody tr {
+	background: #efefef;
+}
+
+table tbody tr:nth-child(odd) {
+	background: #fafafa;
+}

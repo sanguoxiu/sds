@@ -1,0 +1,26 @@
+name: sanguosha
+version: 1
+
+handle:
+- compress: if ( out_header["Content-Length"]>=50) compress
+- compress: if ( out_header["Content-type"]=="text/css" ) compress
+- compress: if ( out_header["Content-type"]=="text/javascript" ) compress
+- compress: if ( out_header["Content-type"]=="text/html" ) compress
+- compress: if ( out_header["Content-type"]=="image/png" ) compress
+- compress: if ( out_header["Content-type"]=="image/jpeg" ) compress
+- compress: if ( out_header["Content-type"]=="text/plain" ) compress
+- compress: if ( out_header["Use-Compress"] == "1") compress
+
+- rewrite: if (path ~ "index.html" ) goto "index.php"
+- rewrite: if (path ~ "stat.html" ) goto "stat.php"
+- rewrite: if (path ~ "assets/skin/(\d+)\.png") goto "http://web.sanguosha.com/220/assets/winnerGeneral/full/$1.png"
+- rewrite: if (path ~ "assets/avatar/(\d+)\.png") goto "http://web.sanguosha.com/220/assets/AvatarShow/avatar/$1.png"
+- rewrite: if (path ~ "assets/avatar/(\d+)\.swf") goto "http://web.sanguosha.com/220/assets/AvatarShow/avatar/$1.swf"
+- rewrite: if (path ~ "assets/background/(\d+)\.png") goto "http://web.sanguosha.com/220/assets/AvatarShow/background/$1.png"
+- rewrite: if (path ~ "assets/border/(\d+)\.png") goto "http://web.sanguosha.com/220/assets/simplified/AvatarShow/border/$1.png"
+- rewrite: if (path ~ "assets/border/(\d+)\.swf") goto "http://web.sanguosha.com/220/assets/simplified/AvatarShow/border/$1.swf"
+- rewrite: if (path ~ "assets/character/(\d+)\.png") goto "http://web.sanguosha.com/220/assets/simplified/DianJiang/$1.png"
+- rewrite: if (path ~ "assets/title/(\d+)\.png") goto "http://web.sanguosha.com/220/assets/simplified/AvatarShow/title/$1.png"
+- rewrite: if (path ~ "assets/image/(\d+)\.png") goto "http://web.sanguosha.com/220/assets/AchieveMent/image/$1.png"
+- rewrite: if (path ~ "assets/text/(\d+)\.png") goto "http://web.sanguosha.com/220/assets/simplified/AchieveMent/text/$1.png"
+- rewrite: if (path ~ "images/(\d+)\-(\d+)\-(\d+)\.png") goto "images/sgx.php?border=$1&background=$2&avatar=$3"
